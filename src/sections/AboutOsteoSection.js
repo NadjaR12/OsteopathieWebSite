@@ -1,49 +1,48 @@
 import React from 'react'
-import { Trans, useTranslation } from 'react-i18next';
-
-export default function AboutOsteo() {
-    const { t } = useTranslation();
+import { Trans, withTranslation, useTranslation } from 'react-i18next';
 
 
-  return (
+const AboutOsteo = () => (
+   
         <section id="about-osteo">
             <div>
-                <h1>{t('AboutOsteo.title')}</h1>
-                <h2>{t('AboutOsteo.subtitle')}</h2>
+                <h1><Trans>AboutOsteo.title</Trans></h1>
+                <h2><Trans>AboutOsteo.subtitle</Trans></h2>
             </div>
-            <div>{t('AboutOsteo.text')}</div>
+            <div><Trans>AboutOsteo.text</Trans></div>
             <div>
-                <p>{t('AboutOsteo.text2')}</p>
+                <p><Trans>AboutOsteo.text2</Trans></p>
             <div>
                 <div>
-                    <img src="" alt="viszerale-osteopathie"/>
-                    <h2>Viszerale Osteopathie</h2>
+                    <img src="" alt="viszerale-osteopathie-img"/>
+                    <h2><Trans>AboutOsteo.categories.title1</Trans></h2>
                     <div>
-                        <h3>Behandlung der inneren Organe, der Blut- und Lymphgefäße.</h3>
-                        <h3>Kann unter anderem angewendet werden bei:</h3>
-                        <p>Verdauungsbeschwerden, Störungen des Magen-Darm-Traktes oder anderer Bauchorgane, Narbenschmerzen, Menstruationsbeschwerden, Blasenbeschwerden, Müdigkeit, Lymph-Abfluss-Problematik</p>
+                        <h3><Trans>AboutOsteo.categories.description1</Trans></h3>
+                        <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
+                        <p><Trans>AboutOsteo.categories.text1</Trans></p>
                     </div>
                 </div>
                 <div>
                         <img src="" alt="kraniosakrale-osteopathie"/>
-                        <h2>Kraniosakrale Osteopathie</h2>
+                        <h2><Trans>AboutOsteo.categories.title2</Trans></h2>
                         <div>
-                            <h3>Sanfte Behandlung feinster Bewegungen von Schädelknochen, Wirbelsäule und Kreuzbein, sowie des Nervensystems.</h3>
-                            <h3>Kann unter anderem angewendet werden bei:</h3>
-                            <p>chronischen Schmerzen (z.B. Fibromyalgie), Schlafstörungen, Schwindel, Tinnitus, Stress, Unfallfolgen, Zähneknirschen/ Kiefergelenksbeschwerden, Asthma, Schwangerschafts- und Menstruationsbeschwerden</p>
+                            <h3><Trans>AboutOsteo.categories.description2</Trans></h3>
+                            <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
+                            <p><Trans>AboutOsteo.categories.text2</Trans></p>
                         </div>
                     </div>
                     <div>
                         <img src="" alt="parietale-osteopathie"/>
-                        <h2>Parietale / Myofasziale Osteopathie</h2>
+                        <h2><Trans>AboutOsteo.categories.title3</Trans></h2>
                         <div>
-                            <h3>Behandlung der Gelenke, Knochen, Muskeln und der Bindegewebe – der Faszien, die den gesamten Körper und seine Organe umhüllen und verbinden.</h3>
-                            <h3>Kann unter anderem angewendet werden bei:</h3>
-                            <p>Muskelverspannungen, Gelenksschmerzen, Nacken- und Rückenschmerzen, Bewegungseinschränkungen, „Tennisarm“, Operations- und Unfallfolgen, Sportverletzungen, unterstützend bei Bandscheibenvorfall und Arthritis</p>
+                            <h3><Trans>AboutOsteo.categories.description3</Trans></h3>
+                            <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
+                            <p><Trans>AboutOsteo.categories.text3</Trans></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-  )
-}
+);
+
+export default withTranslation() (AboutOsteo);
