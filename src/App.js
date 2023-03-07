@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import AboutOsteo from './sections/AboutOsteoSection';
 import AboutMeSection from './sections/AboutMeSection';
 import Footer from './components/Footer';
@@ -14,13 +14,13 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <LandingSection />
-        <InfoSection />
-        <AboutOsteo />
-        <TreatmentSection />
-        <PricingSection />
-        <AboutMeSection />
-        <Footer />
+        {/* <LandingSection /> */}
+        {/* <InfoSection /> */}
+        {/* <AboutOsteo /> */}
+        {/* <TreatmentSection /> */}
+        {/* <PricingSection /> */}
+        {/* <AboutMeSection /> */}
+        {/* <Footer /> */}
       </div>
     );
   }
