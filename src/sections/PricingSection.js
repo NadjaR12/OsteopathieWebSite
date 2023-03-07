@@ -7,10 +7,10 @@ export default function PricingSection() {
 
   return (
     <section id="pricing">
-        <h1>Kosten</h1>
+        <h1>{t('Pricing.title')}</h1>
         <div><Trans t={ t }>Pricing.text</Trans></div>
         <div>
-            <h2>Kostenerstattung:</h2>
+            <h2>{t('Pricing.subtitle')}</h2>
             <p>
             <Trans i18nKey='Pricing.text2'>
               <a href='https://www.osteokompass.de/patienteninfo-krankenkassen--'></a>

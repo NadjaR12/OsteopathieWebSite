@@ -11,12 +11,11 @@
     "Landing.Header.Name": "Susanna Nitz",
     "Landing.Header.Location": "Berlin-Friedrichshain",
 
-    "Info.Title": "Welcome to my practice in Berlin Friedrichshain Praxis Rada",
-    "Info.Adressse": "Kreutziger Str. 4 10247 Berlin",
-    "Info.Email": "info@osteopathie-nitz.de",
-    "Info.Mobil": "+49 1578 234567",
-    "Info.Termine1": "Tue 8 am -15 pm",
-    "Info.Termine2": "Mi 15 pm -21 pm",
+    "Info.title": "Welcome to my practice in Berlin Friedrichshain",
+    "Info.adresse": "Praxis Rada<br></br>Kreutziger Str. 4<br></br>10247 Berlin",
+    "Info.email": "info@osteopathie-nitz.de",
+    "Info.mobil": "+49 1578 234567",
+    "Info.termine": "Tue 8 am -15 pm<br></br>Mi 15 pm -21 pm",
 
     "AboutOsteo.title": "Osteopathy",
     "AboutOsteo.subtitle": "Movement is life! ",

@@ -1,21 +1,20 @@
 import React from 'react'
 
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 export default function InfoSection() {
     const { t } = useTranslation();
 
   return (
     <section id="info">
-        <p>{t('Info.Title')}</p>
+        <p>{t('Info.title')}</p>
         <div>
             <img src="" alt="map"/>
             <div>
-                <h4>{t('Info.Adresse')}</h4>
-                <h4>{t('Info.Adresse')}</h4>
-                <h4>{t('Info.Mobil')}</h4>
-                <h4>{t('Info.Termine1')}</h4>
-                <h4>{t('Info.Termine2')}</h4>
+                <h4><Trans t={ t }>Info.adresse</Trans></h4>
+                <h4>{t('Info.email')}</h4>
+                <h4>{t('Info.mobil')}</h4>
+                <h4><Trans t={ t }>Info.termine</Trans></h4>
             </div>
          </div>
     </section>  
