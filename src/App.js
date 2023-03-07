@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import AboutOsteo from './sections/AboutOsteoSection';
-import AboutSusaSection from './sections/AboutSusaSection';
+import AboutMeSection from './sections/AboutMeSection';
 import Footer from './components/Footer';
 import InfoSection from './sections/InfoSection';
 import LandingSection from './sections/LandingSection';
@@ -19,7 +19,7 @@ class App extends Component {
         <AboutOsteo />
         <TreatmentSection />
         <PricingSection />
-        <AboutSusaSection />
+        <AboutMeSection />
         <Footer />
       </div>
     );

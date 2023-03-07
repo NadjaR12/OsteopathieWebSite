@@ -1,48 +1,48 @@
 import React from 'react'
-import { Trans, withTranslation, useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 
-const AboutOsteo = () => (
+export default function AboutOsteo() {
+    const { t } = useTranslation();
    
+    return (
         <section id="about-osteo">
             <div>
-                <h1><Trans>AboutOsteo.title</Trans></h1>
-                <h2><Trans>AboutOsteo.subtitle</Trans></h2>
+                <h1>{t('AboutOsteo.title')}</h1>
+                <h2>{t('AboutOsteo.subtitle')}</h2>
             </div>
-            <div><Trans>AboutOsteo.text</Trans></div>
+            <div><Trans t={ t }>AboutOsteo.text</Trans></div>
             <div>
-                <p><Trans>AboutOsteo.text2</Trans></p>
+                <p>{t('AboutOsteo.text2')}</p>
             <div>
                 <div>
                     <img src="" alt="viszerale-osteopathie-img"/>
-                    <h2><Trans>AboutOsteo.categories.title1</Trans></h2>
+                    <h2>{t('AboutOsteo.categories.title1')}</h2>
                     <div>
-                        <h3><Trans>AboutOsteo.categories.description1</Trans></h3>
-                        <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
-                        <p><Trans>AboutOsteo.categories.text1</Trans></p>
+                        <h3>{t('AboutOsteo.categories.description1')}</h3>
+                        <h3>{t('AboutOsteo.categories.applied')}</h3>
+                        <p>{t('AboutOsteo.categories.text1')}</p>
                     </div>
                 </div>
                 <div>
                         <img src="" alt="kraniosakrale-osteopathie"/>
-                        <h2><Trans>AboutOsteo.categories.title2</Trans></h2>
+                        <h2>{t('AboutOsteo.categories.title2')}</h2>
                         <div>
-                            <h3><Trans>AboutOsteo.categories.description2</Trans></h3>
-                            <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
-                            <p><Trans>AboutOsteo.categories.text2</Trans></p>
+                            <h3>{t('AboutOsteo.categories.description2')}</h3>
+                            <h3>{t('AboutOsteo.categories.applied')}</h3>
+                            <p>{t('AboutOsteo.categories.text1')}</p>
                         </div>
                     </div>
                     <div>
                         <img src="" alt="parietale-osteopathie"/>
-                        <h2><Trans>AboutOsteo.categories.title3</Trans></h2>
+                        <h2>{t('AboutOsteo.categories.title3')}</h2>
                         <div>
-                            <h3><Trans>AboutOsteo.categories.description3</Trans></h3>
-                            <h3><Trans>AboutOsteo.categories.applied</Trans></h3>
-                            <p><Trans>AboutOsteo.categories.text3</Trans></p>
+                            <h3>{t('AboutOsteo.categories.description3')}</h3>
+                            <h3>{t('AboutOsteo.categories.applied')}</h3>
+                            <p>{t('AboutOsteo.categories.text1')}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-);
-
-export default withTranslation() (AboutOsteo);
+)}

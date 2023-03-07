@@ -25,13 +25,33 @@
  "AboutOsteo.categories.title1": "Viszerale Osteopathie",
  "AboutOsteo.categories.description1": "Behandlung der inneren Organe, der Blut- und Lymphgefäße.",  
  "AboutOsteo.categories.text1": "Verdauungsbeschwerden, Störungen des Magen-Darm-Traktes oder anderer Bauchorgane, Narbenschmerzen, Menstruationsbeschwerden, Blasenbeschwerden, Müdigkeit, Lymph-Abfluss-Problematik",
- 
  "AboutOsteo.categories.title2": "Kraniosakrale Osteopathie",
  "AboutOsteo.categories.description2": "Sanfte Behandlung feinster Bewegungen von Schädelknochen, Wirbelsäule und Kreuzbein, sowie des Nervensystems.", 
  "AboutOsteo.categories.text2": " chronischen Schmerzen (z.B. Fibromyalgie), Schlafstörungen, Schwindel, Tinnitus, Stress, Unfallfolgen, Zähneknirschen/ Kiefergelenksbeschwerden, Asthma, Schwangerschafts- und Menstruationsbeschwerden",
-
  "AboutOsteo.categories.title3": "Parietale / Myofasziale Osteopathie",
  "AboutOsteo.categories.description3": "Behandlung der Gelenke, Knochen, Muskeln und der Bindegewebe – der Faszien, die den gesamten Körper und seine Organe umhüllen und verbinden.", 
  "AboutOsteo.categories.text3": "Muskelverspannungen, Gelenksschmerzen, Nacken- und Rückenschmerzen, Bewegungseinschränkungen, „Tennisarm“, Operations- und Unfallfolgen, Sportverletzungen, unterstützend bei Bandscheibenvorfall und Arthritis",
- "AboutOsteo.categories.applied": "Kann unter anderem angewendet werden bei:"
+ "AboutOsteo.categories.applied": "Kann unter anderem angewendet werden bei:",
+ 
+ "Treatment.title":"Behandlungsablauf",
+ "Treatment.info.duration1":"Dauer des Ersttermins: ca. 60 Minuten",
+ "Treatment.info.duration2":"Dauer der Folgetermine: ca. 45-50 Minuten",
+ "Treatment.info.important": "***Bitte bring ein großes Handtuch mit!***",
+ "Treatment.text": "<p>Zum ersten Termin nehmen wir uns Zeit für ein ausführliches Anamnesegespräch und eine differenzierte körperliche Untersuchung. Wenn vorhanden, werden auch ärztliche Bildaufnahmen, Laborberichte und Befunde in Betracht gezogen - bring diese gerne mit. Die Diagnose und sich daraus ergebende erste Behandlungsschritte werde ich dir erläutern, bevor wir mit der Behandlung beginnen. Auch werden wir hier entscheiden, ob eine osteopathische Therapie sinnvoll ist und ob eine erweiternde schulmedizinische Abklärung notwendig wird. Anschließend folgt, abgestimmt auf die individuelle Diagnose, die manuelle Behandlung. Zum Ende der Stunde werden wir gemeinsam, orientiert an deinen Bedürfnissen und Zielen, den weiteren Ablauf der Therapie erarbeiten. Gegebenenfalls entwickeln wir auch unterstützende Übungen und Techniken, die du nach Hause mitnehmen kannst.</p><p>Ein Folgetermin gliedert sich ähnlich auf - hier werden wir jedoch im Gegenteil zum Ersttermin nach einer kurzen Besprechung eingetretener Veränderungen und einer weiteren kurzen Untersuchung, meist mehr Zeit für die Behandlung haben.</p><p>Die Anzahl der erforderlichen Sitzungen hängt von vielen Faktoren ab, unter Anderem davon, wie lange die Symptomatik bereits besteht, wie aktiv du bist und vor allem, was die Diagnose ist. Diese wird bei der ersten Behandlung gestellt und bei jedem Folgetermin werden wir prüfen, ob weitere Behandlungen erforderlich sind.</p><p>Behandlungen biete ich auf Deutsch, Englisch und (teilweise) Italienisch an.</p>",
+ "Pricing.title": "Kosten",
+ "Pricing.text": "<p>Je Termin werden ca. 85€ berechnet. Du kannst direkt per EC-Karte oder später per Überweisung bezahlen.</p><p>Die Abrechnung erfolgt nach dem Gebührenverzeichnis für Heilpraktiker (GebüH).</p>            <p>Du kannst deinen Termin bis 24 Stunden vorher kostenfrei absagen. Für Absagen unter 24 Stunden oder Nichterscheinen berechne ich ein Ausfallhonorar.</p>",
+ "Pricing.subtitle": "Kostenerstattung",
+ "Pricing.text2": "<p>Viele Krankenkassen übernehmen anteilig die Kosten für osteopathische Behandlungen. Bitte informiere dich vorab über die Leistungen deiner Krankenkasse! Für Erstattungen ist oft ein ärztliches Rezept zur Vorlage bei deiner Krankenkasse notwendig. <0>Hier</0> findest du eine Liste von Krankenkassen, die osteopathische Leistungen bezuschussen.</p><p>Ich bin Mitglied im Verband freier Osteopathen e.V. (VfO).</p>",
+
+ "AboutMe.text": "Als Osteopathin freue ich mich, dich auf deinem Weg der Heilung kompetent unterstützen zu dürfen. Mein Ansatz ist, mit osteopathischen Impulsen die natürlichen Heilungskräfte deines Körpers in Bewegung zu setzen und mit gezielten Übungen und Anregungen die Verbindung zwischen dir und deinem Körper zu stärken. Damit sollst du befähigt werden, selbstbestimmt und nachhaltig dein individuelles, ganzheitliches Gefühl von Gesundheit wiederzufinden. Durch meine gesammelten Erfahrungen aus meiner langjährigen Ausbildung, meiner Arbeit als Übungsleiterin, als begeisterte Akrobatin, sowie durch kontinuierliche Fortbildungen kann ich auf ein vielfältiges Behandlungsspektrum zurückgreifen. Selbst frisch gebackene Mama, stehe ich dir gerne auch bei Schwangerschafts- oder Stillbeschwerden, sowie nach der Geburt zur Seite. Behandlungen biete ich auf Deutsch, Englisch und (teilweise) Italienisch an.",
+ "AboutMe.list.title1": "B.Sc. Osteopathie",
+ "AboutMe.list.subtitle1": "DIU Dresden/ OSD Berlin",
+ "AboutMe.list.title2": "5-jähriges Vollzeitstudium Osteopathie",
+ "AboutMe.list.subtitle2": "OSD Berlin",
+ "AboutMe.list.title3": "staatlich geprüfte Heilpraktikerin",
+ "AboutMe.list.subtitle3": "Gesundheitsamt Berlin",
+ "AboutMe.list.title4": "Mitglied im Verband freier Osteopathen e.V. (VfO)",
+
+ "Footer.impressum": "impressum",
+ "Footer.datenschutz": "datenschutz"
 }
