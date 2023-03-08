@@ -4,7 +4,7 @@ import AboutOsteo from './sections/AboutOsteoSection';
 import AboutMeSection from './sections/AboutMeSection';
 import Footer from './components/Footer/Footer';
 import InfoSection from './sections/InfoSection';
-import LandingSection from './sections/LandingSection';
+import LandingSection from './sections/LandingSection/LandingSection';
 import NavBar from './components/NavBar/NavBar';
 import PricingSection from './sections/PricingSection';
 import TreatmentSection from './sections/TreatmentSection';
