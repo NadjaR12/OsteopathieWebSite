@@ -1,0 +1,50 @@
+@import './sass/app.scss';
+
+.App {
+  text-align: center;
+  color: $fontdark;
+  font-family: $font-main;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns:
+      1fr
+      #{"min(65ch, 100%)"}
+      1fr;
+}
+
+.grid-wrapper > * {
+  grid-column: 2;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: $font-size-24;
+  font-weight: 600;
+  text-align: center;
+  line-height: $gap-12;
+  margin: $gap-12;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: $font-size-24;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-size: $font-size-16;
+  font-weight: 400;
+  text-align: center;
+  line-height: $gap-12;
+}
+
+h5 {
+  font-family: 'Poppins' normal;
+  font-size: $font-size-12;
+  line-height: $gap-12;
+  font-weight: 600;
+}
+

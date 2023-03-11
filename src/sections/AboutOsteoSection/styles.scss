@@ -1,0 +1,6 @@
+@import '../../sass/app.scss';
+
+#about-osteo {
+    @include side-padding;
+    @include margin;
+}

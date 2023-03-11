@@ -1,0 +1,12 @@
+@import '../../sass/app.scss';
+
+#info {
+    @include side-padding;
+    @include margin;
+
+    img {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+}

@@ -1,0 +1,14 @@
+@mixin side-padding {
+    padding-left: $gap-24;
+    padding-right: $gap-24;
+}
+
+@mixin margin {
+    margin-top: $gap-32;
+    margin-bottom: $gap-32;
+}
+
+@mixin full-bleed {
+    width: 100%;
+    grid-column: 1 / 4;
+}

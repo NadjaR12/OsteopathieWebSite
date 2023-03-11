@@ -1,0 +1,10 @@
+@import '../../sass/app.scss';
+
+#pricing {
+    @include side-padding;
+    @include margin;
+
+    img {
+        width: 80px;
+    }
+}

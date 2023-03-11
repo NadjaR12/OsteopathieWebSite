@@ -1,0 +1,28 @@
+@import '../../sass/app.scss';
+
+#landing {
+    margin-top: $gap-12;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        height: 108px;
+        width: 111px;
+        border-radius: 50px;  
+        margin-top: $gap-32;
+    }
+
+    .landing_text {
+        margin-top: $gap-32 + $gap-32;
+        margin-bottom: $gap-32 + $gap-32;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        button {
+            margin-top: $gap-24;
+        }
+    }
+}

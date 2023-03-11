@@ -1,0 +1,6 @@
+@import '../../sass/app.scss';
+
+#treatment {
+    @include side-padding;
+    @include margin;
+}

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
-import AboutOsteo from './sections/AboutOsteoSection';
-import AboutMeSection from './sections/AboutMeSection';
-import Footer from './components/Footer';
-import InfoSection from './sections/InfoSection';
-import LandingSection from './sections/LandingSection';
-import NavBar from './components/NavBar';
-import PricingSection from './sections/PricingSection';
-import TreatmentSection from './sections/TreatmentSection';
+import './App.scss';
+import AboutOsteo from './sections/AboutOsteoSection/AboutOsteoSection';
+import AboutMeSection from './sections/AboutMeSection/AboutMeSection';
+import Footer from './components/Footer/Footer';
+import InfoSection from './sections/InfoSection/InfoSection';
+import LandingSection from './sections/LandingSection/LandingSection';
+import NavBar from './components/NavBar/NavBar';
+import PricingSection from './sections/PricingSection/PricingSection';
+import TreatmentSection from './sections/TreatmentSection/TreatmentSection';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App grid-wrapper">
         <NavBar />
         <LandingSection />
         <InfoSection />

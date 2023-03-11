@@ -1,0 +1,21 @@
+@import '../../sass/app.scss';
+
+.language-switch {
+    width: 70px;
+    padding: 6px 0px;
+    color: $shadow;
+    border: $shadow solid 1px;
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-right: $gap-12;
+    
+    button {
+        color: $fontdark;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        text-align: center;
+    }
+}

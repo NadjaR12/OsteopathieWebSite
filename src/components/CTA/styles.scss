@@ -1,0 +1,13 @@
+@import '../../sass/app.scss';
+
+.CTA_btn {
+    padding: 8px 10px;
+    border-radius: $border-radius;
+    background-color: $secondary;
+    color: $fontlight;
+    border-style: none;
+    font-family: 'Poppins' normal;
+    font-size: $font-size-12;
+    line-height: $gap-12;
+    font-weight: 500;
+}

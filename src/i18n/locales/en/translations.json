@@ -1,7 +1,57 @@
 {
     "CTA.Termin": "Book a session",
+
     "NavBar.Osteopathie": "Osteopathy",
     "NavBar.Behandlung": "Treatment",
     "NavBar.Kosten": "Prices",
-    "NavBar.ÜberMich": "About me"
+    "NavBar.ÜberMich": "About me",
+
+    "Landing.Greeting": "Welcome",
+    "Landing.Header.Osteopathie": "Osteopathie",
+    "Landing.Header.Name": "Susanna Nitz",
+    "Landing.Header.Location": "Berlin-Friedrichshain",
+
+    "Info.title": "Welcome to my practice in Berlin Friedrichshain",
+    "Info.adresse": "Praxis Rada<br></br>Kreutziger Str. 4<br></br>10247 Berlin",
+    "Info.email": "info@osteopathie-nitz.de",
+    "Info.mobil": "+49 1578 234567",
+    "Info.termine": "Tue 8 am -15 pm<br></br>Mi 15 pm -21 pm",
+
+    "AboutOsteo.title": "Osteopathy",
+    "AboutOsteo.subtitle": "Movement is life! ",
+    "AboutOsteo.text": "<p>Osteopathy is a non-invasive healing method focused on locating deep-seated causes of physical symptoms, releasing these restrictions, and thereby allowing the body to reactivate its own <strong>self-healing forces</strong> and thus return to its <strong>dynamic equilibrium</strong>. Osteopathy can both provide the primary diagnosis as well as be used as an adjunct and complement to conventional medical treatments. It may also be helpful in cases in which standard medical treatment methods have reached their limits.</p><p>In osteopathy, the body is perceived as a <strong>dynamic unit of multidimensional systems</strong> that continuously interrelate and affect each other. This also means that a restriction occurring in one of these systems can interfere with the balance of all the other systems. Therefore, it is possible that the causes of symptoms, such as pain, are located in places farther away in the body. Being a holistic therapy, osteopathic diagnosis not only considers somatic components and lifestyle as the origin of symptoms but regards mental and social factors as equally influential. Often it is an <strong>interplay of all these elements</strong> that is involved in the genesis of physical dysfunctions – in a relaxed atmosphere we will seek to understand the roots of such malfunctions in your individual case together.</p><p>The osteopathic <strong>treatment</strong>, finally, is characterised by a wide range of <strong>manual techniques</strong>, which will be used to gently work on the tissues and fluids of the body. The aim is to release restrictions and tensions and to restore the systems' natural balance - giving the body an opportunity to regenerate and to reintegrate all its elements into a functioning unity.<br></br> In combination with this, we might also explore posture and movement exercises, as well as changes in habits and lifestyle (e.g. diet), in order to assist and encourage you in <strong>your healing process with a sustainable and self-determined approach.</strong></p>",
+    "AboutOsteo.text2": "Traditionally, osteopathic manual techniques are divided into three subareas. During treatment, techniques from single or all three areas will be used, depending on the whole clinical picture:",
+    "AboutOsteo.categories.title1": "Visceral osteopathy",
+    "AboutOsteo.categories.description1": "Treatment of the internal organs, blood and lymph vessels.",  
+    "AboutOsteo.categories.text1": "Indigestion, disorders of the gastrointestinal tract or other abdominal organs, scarring pain, menstrual complaints, bladder disorders, fatigue, lymph drainage related problems",
+    "AboutOsteo.categories.title2": "Craniosacral osteopathy",
+    "AboutOsteo.categories.description2": "Gentle treatment of subtle movements of the cranial bones, spine, sacrum, and nervous system.", 
+    "AboutOsteo.categories.text2": "Headaches, migraines, chronic pain (e.g. fibromyalgia), sleep disorders, vertigo, tinnitus, stress, physical trauma, teeth grinding/ TMJ disorders, asthma, pregnancy and menstrual problems",
+    "AboutOsteo.categories.title3": "Parietal / Myofascial osteopathy",
+    "AboutOsteo.categories.description3": "Treatment of the joints, bones, muscles, and the connective tissues - the fasciae, that wrap around and interconnect the entire body and its organs.", 
+    "AboutOsteo.categories.text3": "Muscle tension, joint pain, neck and back pain, restricted mobility, 'tennis elbow', post-operative and post-traumatic consequences, sports injuries, supportive treatment for spinal disc herniation and arthritis",
+    "AboutOsteo.categories.applied": "May be applied, among other conditions, for:",
+    
+    "Treatment.title":"Treatment Procedure",
+    "Treatment.info.duration1":"Duration of the initial <strong>appointment</strong>: approx. 60 minutes",
+    "Treatment.info.duration2":"Duration of <strong>follow-up appointments</strong>: approx. 45 - 50 minutes",
+    "Treatment.info.important": "*** Please bring a large towel! ***",
+    "Treatment.text": "<p>During the first appointment, we will dedicate time to a detailed <strong>medical anamnesis</strong> and a comprehensive <strong>physical examination</strong>. If available, any <strong>medical images</strong>, laboratory reports and diagnostic findings will also be taken into consideration - please bring them with you.<br></br>Prior to starting the first treatment, I will explain the <strong>diagnosis</strong> and the resulting first therapeutic steps to you. At this point we will also discuss whether an osteopathic therapy is appropriate and beneficial in your case, and whether an additional conventional medical consultation is necessary.<br></br>Following this, the <strong>manual treatment</strong> is carried out according to the individual diagnosis.<br></br>Towards the end of the session, we will determine the <strong>further course of therapy</strong> together, based on your personal needs and aims. If helpful, we will also practice supportive exercises and techniques that you can take home with you.</p><p>A <strong>follow-up appointment</strong> is structured similarly - we will briefly discuss any changes that have been noticed and perform another short examination. In contrast to the first appointment, we will then usually devote more time to the manual treatment.</p><p>The <strong>number of sessions</strong> that are needed will depend on many factors including how long you have had the problem, your levels of activity and most importantly, the diagnosis of the problem. This will be assessed at your first treatment and then if further treatments are needed will be assessed at each treatment.</p><p>I offer therapy in <strong>English, German and (partly) Italian</strong> language.</p>",
+    "Pricing.title": "Prices",
+    "Pricing.text": "<p>The fee for each appointment is approx. <strong>85€</strong>. You can pay directly via debit card or later by bank transfer.</p><p>The fee is calculated according to the fee index for non-medical practitioners / Heilpraktiker (GebüH).</p><p>You can cancel your appointment free of charge up to <strong>24 hours</strong> in advance. For cancellations less than 24 hours or non-appearance, I charge a cancellation fee.</p>",
+    "Pricing.subtitle": "Reimbursement",
+    "Pricing.text2": "<p>Many German health insurance companies cover a proportion of the treatment costs for osteopathic treatments. Please inform yourself in advance about the benefits of your health insurance! For reimbursement, a doctor's prescription is often required for presentation to your health insurance company.<br></br><0>Here</0> you can find a list of German health insurances that subsidise osteopathic treatments.</p><p>I am a member of the Verband freier Osteopathen e.V. (VfO), an approved professional association for osteopaths.</p>",
+
+    "AboutMe.text": "It is my great pleasure as an osteopath to be able to offer you competent support on your path to recovery.<br></br>My approach is to activate your body's natural healing powers using carefully tailored osteopathic impulses and to strengthen the bond between you and your body with purposeful exercises and incentives. My aim is to enable you to regain your individual, holistic sense of health in a self-determined and long-lasting way.<br></br>With the experience I have gained from my years of osteopathic medical training, my work as an athletic instructor, as an enthusiastic acrobat myself, as well as through continuous advanced professional training, I am able to draw on a diverse range of treatment methods. As a “newly born” mum myself, I am also there to support you with pregnancy and breastfeeding problems and after giving birth.<br></br>I offer therapy in English, German and (partly) Italian language.",
+    "AboutMe.list.title1": "B.Sc. Osteopathy",
+    "AboutMe.list.subtitle1": "DIU Dresden/ OSD Berlin",
+    "AboutMe.list.title2": "5-year full-time studies in Osteopathy",
+    "AboutMe.list.subtitle2": "OSD Berlin",
+    "AboutMe.list.title3": "licensed alternative practitioner: Heilpraktikerin",
+    "AboutMe.list.subtitle3": "Gesundheitsamt Berlin",
+    "AboutMe.list.title4": "member of the approved professional association for osteopaths",
+    "AboutMe.list.subtitle4": "Verband freier Osteopathen e.V. (VfO)",
+
+    "Footer.impressum": "legal disclaimer",
+    "Footer.datenschutz": "privacy policy"
 }
