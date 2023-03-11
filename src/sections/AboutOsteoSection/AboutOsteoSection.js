@@ -14,9 +14,9 @@ export default function AboutOsteo() {
                 <h3>{t('AboutOsteo.subtitle')}</h3>
             </div>
             <div><Trans t={ t }>AboutOsteo.text</Trans></div>
-                <div>
+                <div className='osteo-variants'>
                     <p>{t('AboutOsteo.text2')}</p>
-                <div>
+                <div className='osteo-variants'>
                     <Card title={'AboutOsteo.categories.title1'} description={'AboutOsteo.categories.description1'} text={'AboutOsteo.categories.text1'}/>
                     <Card title={'AboutOsteo.categories.title2'} description={'AboutOsteo.categories.description2'} text={'AboutOsteo.categories.text2'}/>
                     <Card title={'AboutOsteo.categories.title3'} description={'AboutOsteo.categories.description3'} text={'AboutOsteo.categories.text3'}/>

@@ -3,6 +3,7 @@
 #pricing {
     @include side-padding;
     @include margin;
+    margin-bottom: $gap-32 + $gap-32;
 
     img {
         width: 80px;

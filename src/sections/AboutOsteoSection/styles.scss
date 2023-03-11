@@ -3,4 +3,9 @@
 #about-osteo {
     @include side-padding;
     @include margin;
+
+    .osteo-variants {
+        margin-top: $gap-32 + $gap-32;
+        margin-bottom: $gap-32 + $gap-32;
+    }
 }

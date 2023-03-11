@@ -17,10 +17,13 @@
     .NavBar_navigation {
         display: flex;
         justify-content: space-between;
-        padding: $gap-12;
+        padding-left: $gap-12;
+        padding-right: $gap-12;
     }
 
     a {
-        text-decoration: none;
+        text-decoration: none !important;
+        color: inherit; 
+        // color: $fontdark;
     }
 }
