@@ -17,7 +17,8 @@
     .NavBar_navigation {
         display: flex;
         justify-content: space-between;
-        padding: $gap-12;
+        padding-left: $gap-12;
+        padding-right: $gap-12;
     }
 
     a {

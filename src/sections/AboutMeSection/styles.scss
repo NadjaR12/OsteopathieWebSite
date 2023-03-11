@@ -2,6 +2,7 @@
 
     .cv {
         @include margin;
+        @include side-padding;
 
         display: flex;
         justify-content: center;
