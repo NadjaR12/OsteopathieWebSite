@@ -1,6 +1,8 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 
+import './styles.scss';
+
 export default function TreatmentSection() {
   const { t } = useTranslation();
 

@@ -8,7 +8,7 @@ export default function AboutSusaSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="about-susa">
+    <section id="about-me">
       <div className='cv'>
           <img src={LandingPageImage} alt="susa-img" className='cv-img'/>
           <div className='cv-list'>
@@ -18,7 +18,7 @@ export default function AboutSusaSection() {
               <h4>{t('AboutMe.list.title4')}<h5>{t('AboutMe.list.subtitle4')}</h5></h4>
           </div>
       </div>
-        <p><Trans t={ t }>AboutMe.text</Trans></p>
+        <p className='about-me-text'><Trans t={ t }>AboutMe.text</Trans></p>
     </section>
   )
 }

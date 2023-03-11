@@ -1,4 +1,8 @@
+@import '../../sass/app.scss';
+
 #pricing {
+    @include side-padding;
+
     img {
         width: 80px;
     }

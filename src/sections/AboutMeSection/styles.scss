@@ -22,3 +22,7 @@
             padding: 0;     
         }
     }
+
+    .about-me-text {
+        @include side-padding;
+    }
