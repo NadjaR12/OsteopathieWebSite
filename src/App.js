@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
-import AboutOsteo from './sections/AboutOsteoSection';
+import AboutOsteo from './sections/AboutOsteoSection/AboutOsteoSection';
 import AboutMeSection from './sections/AboutMeSection';
 import Footer from './components/Footer/Footer';
-import InfoSection from './sections/InfoSection';
+import InfoSection from './sections/InfoSection/InfoSection';
 import LandingSection from './sections/LandingSection/LandingSection';
 import NavBar from './components/NavBar/NavBar';
 import PricingSection from './sections/PricingSection';
@@ -15,8 +15,8 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <LandingSection />
-        {/* <InfoSection /> */}
-        {/* <AboutOsteo /> */}
+        <InfoSection />
+        <AboutOsteo />
         {/* <TreatmentSection /> */}
         {/* <PricingSection /> */}
         {/* <AboutMeSection /> */}

@@ -1,0 +1,15 @@
+@import '../../sass/app.scss';
+
+#info {
+    margin-top: $gap-32;
+    margin-bottom: $gap-32;
+    img {
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+    // .infobox {
+    //     display: flex;
+    //     flex-direction: column;
+    // }
+}
