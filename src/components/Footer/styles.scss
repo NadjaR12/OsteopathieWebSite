@@ -2,7 +2,7 @@
 
 #footer {
     background-color: $primary;
-    
+    @include full-bleed;
 }
 
 .disclaimer {

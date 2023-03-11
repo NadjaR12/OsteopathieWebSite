@@ -1,12 +1,16 @@
 @import '../../sass/app.scss';
 
 .NavBar {
-    background-color: $primary;
+    @include full-bleed;
+   
     display: flex;
     flex-direction: column;
+
     padding: $gap-12;
     padding-bottom: 0px;
-  
+
+    background-color: $primary;
+
     .NavBar_header {
         display: flex;
         justify-content: space-between;

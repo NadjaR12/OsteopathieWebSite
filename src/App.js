@@ -12,7 +12,7 @@ import TreatmentSection from './sections/TreatmentSection/TreatmentSection';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App grid-wrapper">
         <NavBar />
         <LandingSection />
         <InfoSection />

@@ -6,6 +6,18 @@
   font-family: $font-main;
 }
 
+.grid-wrapper {
+    display: grid;
+    grid-template-columns:
+      1fr
+      #{"min(65ch, 100vw)"}
+      1fr;
+}
+
+.grid-wrapper > * {
+  grid-column: 2;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: $font-size-24;
