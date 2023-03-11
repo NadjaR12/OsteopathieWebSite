@@ -12,7 +12,8 @@ export default function TransButton() {
 
   return (
     <div className="language-switch">
-        <button id="de-btn" onClick={changeLanguage} value='de'>DE</button>|
+        <button id="de-btn" onClick={changeLanguage} value='de'>DE</button>
+        <h4>|</h4>
         <button id="en-btn" onClick={changeLanguage} value='en'>EN</button>
     </div>
   )
