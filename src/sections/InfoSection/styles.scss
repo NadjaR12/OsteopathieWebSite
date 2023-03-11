@@ -1,7 +1,8 @@
 @import '../../sass/app.scss';
 
 #info {
-   @include side-padding;
+    @include side-padding;
+    @include margin;
 
     img {
         width: 200px;

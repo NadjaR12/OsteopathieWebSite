@@ -1,6 +1,8 @@
 @import '../../sass/app.scss';
 
     .cv {
+        @include margin;
+
         display: flex;
         justify-content: center;
         background-color: $primary;
@@ -24,5 +26,6 @@
     }
 
     .about-me-text {
+        @include margin;
         @include side-padding;
     }

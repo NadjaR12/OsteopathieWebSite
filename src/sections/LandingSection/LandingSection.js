@@ -11,7 +11,7 @@ export default function LandingSection() {
   const { t } = useTranslation();
 
   return (
-    <section className='landing'>
+    <section id='landing'>
         <TransButton />
         <div className='landing_text'>
           <h1>{t('Landing.Greeting')}</h1>

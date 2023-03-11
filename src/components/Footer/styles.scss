@@ -3,6 +3,7 @@
 #footer {
     background-color: $primary;
     @include full-bleed;
+    margin-top: $gap-32 + $gap-32;
 }
 
 .disclaimer {

@@ -3,9 +3,9 @@
     padding-right: $gap-24;
 }
 
-@mixin no-side-padding {
-    padding-left: 0;
-    padding-right: 0;
+@mixin margin {
+    margin-top: $gap-32;
+    margin-bottom: $gap-32;
 }
 
 @mixin full-bleed {
