@@ -1,25 +1,12 @@
 @import '../../sass/app.scss';
 
-.viszerale-bg {
-    background-color: green;
-}
-.kraniosakrale-bg {
-    background-color: chocolate;
-}
-.parietale-bg {
-    background-color: blanchedalmond;
+.hoverfield {
+    background-color: $primary;
+    padding: 5px;
 }
 
-.hoverfield {
-    display: none;
-    background-color: $primary;
-    color: $fontlight;
-    border-radius: $border-radius-20;
-    border: $secondary solid 1px;
-    padding: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
-h2:hover + .hoverfield {
-    display: block;
+#card {
+    img {
+        width: 15px;
+    }
 }

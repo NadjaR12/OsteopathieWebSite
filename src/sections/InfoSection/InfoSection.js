@@ -19,7 +19,7 @@ export default function InfoSection() {
                 <h4>{t('Info.mobil')}</h4>
                 <h4><Trans t={ t }>Info.termine</Trans></h4>
             </div>
-         </div>
+        </div>
     </section>  
 )
 }

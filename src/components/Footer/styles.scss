@@ -1,0 +1,21 @@
+@import '../../sass/app.scss';
+
+#footer {
+    background-color: $primary;
+    
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    h4 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

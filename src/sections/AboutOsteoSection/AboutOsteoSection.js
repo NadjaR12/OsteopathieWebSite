@@ -17,9 +17,9 @@ export default function AboutOsteo() {
                 <div>
                     <p>{t('AboutOsteo.text2')}</p>
                 <div>
-                    <Card className={'viszerale-bg'} title={'AboutOsteo.categories.title1'} description={'AboutOsteo.categories.description1'} text={'AboutOsteo.categories.text1'}/>
-                    <Card className={'kraniosakrale-bg'} title={'AboutOsteo.categories.title2'} description={'AboutOsteo.categories.description2'} text={'AboutOsteo.categories.text2'}/>
-                    <Card className={'parietale-bg'}title={'AboutOsteo.categories.title3'} description={'AboutOsteo.categories.description3'} text={'AboutOsteo.categories.text3'}/>
+                    <Card title={'AboutOsteo.categories.title1'} description={'AboutOsteo.categories.description1'} text={'AboutOsteo.categories.text1'}/>
+                    <Card title={'AboutOsteo.categories.title2'} description={'AboutOsteo.categories.description2'} text={'AboutOsteo.categories.text2'}/>
+                    <Card title={'AboutOsteo.categories.title3'} description={'AboutOsteo.categories.description3'} text={'AboutOsteo.categories.text3'}/>
                 </div>
             </div>
         </section>

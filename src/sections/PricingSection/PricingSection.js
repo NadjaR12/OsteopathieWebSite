@@ -1,6 +1,9 @@
 import React from 'react'
 
+import OsteoLogo from '../../images/osteo-verband-logo.png'
 import { Trans, useTranslation } from 'react-i18next'
+
+import './styles.scss';
 
 export default function PricingSection() {
   const { t } = useTranslation();
@@ -16,7 +19,7 @@ export default function PricingSection() {
               <a href='https://www.osteokompass.de/patienteninfo-krankenkassen--'></a>
             </Trans>
             </p>
-            <img src="" alt="Verband freier Osteopathen Logo"/>
+            <img src={OsteoLogo} alt="Verband freier Osteopathen Logo"/>
         </div>
     </section>
   )
