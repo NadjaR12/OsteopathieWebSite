@@ -5,8 +5,6 @@
    
     display: flex;
     flex-direction: column;
-
-    padding: $gap-12;
     padding-bottom: 0px;
 
     background-color: $primary;
@@ -14,9 +12,11 @@
     .NavBar_header {
         display: flex;
         justify-content: space-between;
+        padding: $gap-12;
     }
     .NavBar_navigation {
         display: flex;
         justify-content: space-between;
+        padding: $gap-12;
     }
 }
