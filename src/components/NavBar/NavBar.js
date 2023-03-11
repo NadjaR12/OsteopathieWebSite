@@ -14,10 +14,10 @@ export default function NavBar() {
             <CTA message={'CTA.Termin'}/>
         </div>
         <div className='NavBar_navigation'>
-            <h5>{t('NavBar.Osteopathie')}</h5>
-            <h5>{t('NavBar.Behandlung')}</h5>
-            <h5>{t('NavBar.Kosten')}</h5>
-            <h5>{t('NavBar.ÜberMich')}</h5>
+            <a href='#about-osteo'><h5>{t('NavBar.Osteopathie')}</h5></a>
+            <a href='#treatment'><h5>{t('NavBar.Behandlung')}</h5></a>
+            <a href='#pricing'><h5>{t('NavBar.Kosten')}</h5></a>
+            <a href='#about-me'><h5>{t('NavBar.ÜberMich')}</h5></a>
         </div>
     </nav>
   )
