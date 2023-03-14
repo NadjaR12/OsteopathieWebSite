@@ -16,7 +16,6 @@ class App extends Component {
       <Router>
       <div className="App grid-wrapper">
         <NavBar />
-        <TransButton />
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/impressum' element={<Impressum />}/>

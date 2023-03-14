@@ -12,7 +12,7 @@ export default function LandingSection() {
 
   return (
     <section id='landing'>
-        {/* <TransButton /> */}
+        <TransButton />
         <div className='landing_text'>
           <h1>{t('Landing.Greeting')}</h1>
           <img src={LandingPageImage} alt="susa-img"/>
