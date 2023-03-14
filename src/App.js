@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.scss';
-import AboutOsteo from './sections/AboutOsteoSection/AboutOsteoSection';
-import AboutMeSection from './sections/AboutMeSection/AboutMeSection';
+
+import Home from './pages/Home';
+import Impressum from './pages/Impressum';
+import Privacy from './pages/Privacy';
 import Footer from './components/Footer/Footer';
-import InfoSection from './sections/InfoSection/InfoSection';
-import LandingSection from './sections/LandingSection/LandingSection';
 import NavBar from './components/NavBar/NavBar';
-import PricingSection from './sections/PricingSection/PricingSection';
-import TreatmentSection from './sections/TreatmentSection/TreatmentSection';
+
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <div className="App grid-wrapper">
         <NavBar />
-        <LandingSection />
-        <InfoSection />
-        <AboutOsteo />
-        <TreatmentSection />
-        <PricingSection />
-        <AboutMeSection />
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/impressum' element={<Impressum />}/>
+          <Route path='/datenschutz' element={<Privacy />}/>
+        </Routes>
         <Footer />
       </div>
+      </Router>
     );
   }
 }
