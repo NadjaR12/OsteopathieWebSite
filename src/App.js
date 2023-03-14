@@ -4,7 +4,7 @@ import './App.scss';
 
 import Home from './pages/Home';
 import Impressum from './pages/Impressum/Impressum';
-import Privacy from './pages/Privacy';
+import Privacy from './pages/Privacy/Privacy';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import TransButton from './components/TransButton/TransButton';
