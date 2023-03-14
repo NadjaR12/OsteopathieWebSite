@@ -1,0 +1,12 @@
+@import '../../sass/app.scss';
+
+#impressum {
+    @include margin;
+    @include side-padding;
+
+    text-align: justify;
+
+    h1 {
+        margin-bottom: $gap-32;
+    }
+}

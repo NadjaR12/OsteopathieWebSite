@@ -8,6 +8,7 @@ export default function TransButton() {
 
     function changeLanguage(e) {
         i18n.changeLanguage(e.target.value);
+        e.preventDefault();
       }
 
   return (
