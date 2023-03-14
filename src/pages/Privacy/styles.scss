@@ -1,0 +1,16 @@
+@import '../../sass/app.scss';
+
+#privacy {
+    @include margin;
+    padding-right: $gap-24;
+    
+    ul {
+        @include margin;   
+    }
+
+    text-align: justify;
+
+    h1 {
+        margin-bottom: $gap-32;
+    }
+}

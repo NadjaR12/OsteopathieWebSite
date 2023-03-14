@@ -16,9 +16,9 @@ export default function Footer() {
             </div>
         </div>
         <div className='disclaimer'>
-            <a href=""><h4>{t('Footer.impressum')}</h4></a>
+            <a href="/impressum"><h4>{t('Footer.impressum')}</h4></a>
             <h4>|</h4>
-            <a href=""><h4>{t('Footer.datenschutz')}</h4></a>            
+            <a href="/datenschutz"><h4>{t('Footer.datenschutz')}</h4></a>            
         </div>
     </footer>
   )

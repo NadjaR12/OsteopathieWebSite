@@ -4,8 +4,21 @@
     @include side-padding;
     @include margin;
     margin-bottom: $gap-32 + $gap-32;
+    text-align: justify;
+
+    .pricing-info {
+        text-align: center;
+        @include margin;
+        .pricing-cancelation  {
+        color: $secondary;
+    }
+    }
+    
 
     img {
         width: 80px;
-    }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
 }

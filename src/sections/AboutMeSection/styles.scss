@@ -29,4 +29,5 @@
     .about-me-text {
         @include margin;
         @include side-padding;
+        text-align: justify;
     }

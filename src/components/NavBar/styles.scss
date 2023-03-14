@@ -9,6 +9,7 @@
 
     background-color: $primary;
 
+
     .NavBar_header {
         display: flex;
         justify-content: space-between;
@@ -24,6 +25,5 @@
     a {
         text-decoration: none !important;
         color: inherit; 
-        // color: $fontdark;
     }
 }

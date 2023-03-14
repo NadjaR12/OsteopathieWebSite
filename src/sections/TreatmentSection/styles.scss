@@ -3,4 +3,10 @@
 #treatment {
     @include side-padding;
     @include margin;
+    text-align: justify;
+
+    .treatment-info {
+        @include margin;
+        text-align: center;
+    }
 }

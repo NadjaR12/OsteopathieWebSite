@@ -11,7 +11,11 @@ export default function PricingSection() {
   return (
     <section id="pricing">
         <h1>{t('Pricing.title')}</h1>
-        <div><Trans t={ t }>Pricing.text</Trans></div>
+        <div className='pricing-info'>
+          <Trans t={ t }>Pricing.costs</Trans>
+          <Trans t={ t }>Pricing.billing</Trans>
+          <p className='pricing-cancelation'><Trans t={ t }>Pricing.cancelation</Trans></p>
+        </div>
         <div>
             <h2>{t('Pricing.subtitle')}</h2>
             <p>
