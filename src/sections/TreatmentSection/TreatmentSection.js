@@ -9,11 +9,11 @@ export default function TreatmentSection() {
   return (
     <section id="treatment">
         <h1>{t('Treatment.title')}</h1>
-        <div>
+        <div className='treatment-info'>
             <p><Trans t={ t }>Treatment.info.duration1</Trans></p>
             <p><Trans t={ t }>Treatment.info.duration2</Trans></p>
+            <p><strong>{t('Treatment.info.important')}</strong></p>
         </div>
-        <p><strong>{t('Treatment.info.important')}</strong></p>
         <div>
           <Trans t={ t }>Treatment.text</Trans>
         </div>

@@ -3,8 +3,13 @@
 #about-osteo {
     @include side-padding;
     @include margin;
+    text-align: justify;
 
     .osteo-variants {
+        p {
+            text-align: justify;
+        }
+        text-align: center;
         margin-top: $gap-32 + $gap-32;
         margin-bottom: $gap-32 + $gap-32;
     }
